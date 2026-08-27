@@ -1,0 +1,20 @@
+.autocomplete-dropdown {
+    position: absolute;
+    background: white;
+    border: 1px solid #ddd;
+    width: 100%;
+    z-index: 99;
+    top: 100%;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.autocomplete-item {
+    padding: 12px;
+    cursor: pointer;
+    color: #333;
+    font-size: 14px;
+}
+.autocomplete-item:hover {
+    background: #f4f0fa;
+    color: #240046;
+}
